@@ -9,11 +9,11 @@ import HelloWorld from './components/HelloWorld.vue'
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
+      
+      <nav> 
+        <router-link to="/admin">后台Demo</router-link>
 
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
+      </nav> 
     </div>
   </header>
 
